@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JZ-Web.SharedKernel", "JZ-Web.SharedKernel\JZ-Web.SharedKernel.csproj", "{E545AE41-E339-45EF-98DD-6C48CA5B6710}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{B6421DF6-3B2E-4E5F-994A-16985F145B16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portfolio", "Portfolio", "{658179B2-1D46-467B-9FC0-CEE1D6B8A864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JZPortfolio.Common", "2.Domain\Portfolio\JZPortfolio.Common\JZPortfolio.Common.csproj", "{5C95361C-6F5C-4C22-8552-BB429A00CCB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JZPortfolio.Frontend", "2.Domain\Portfolio\JZPortfolio.Frontend\JZPortfolio.Frontend.csproj", "{EF43DD8F-D05F-4958-8C52-3C86325ECB1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,18 @@ Global
 		{E545AE41-E339-45EF-98DD-6C48CA5B6710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E545AE41-E339-45EF-98DD-6C48CA5B6710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E545AE41-E339-45EF-98DD-6C48CA5B6710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C95361C-6F5C-4C22-8552-BB429A00CCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C95361C-6F5C-4C22-8552-BB429A00CCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C95361C-6F5C-4C22-8552-BB429A00CCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C95361C-6F5C-4C22-8552-BB429A00CCB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF43DD8F-D05F-4958-8C52-3C86325ECB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF43DD8F-D05F-4958-8C52-3C86325ECB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF43DD8F-D05F-4958-8C52-3C86325ECB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF43DD8F-D05F-4958-8C52-3C86325ECB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{658179B2-1D46-467B-9FC0-CEE1D6B8A864} = {B6421DF6-3B2E-4E5F-994A-16985F145B16}
+		{5C95361C-6F5C-4C22-8552-BB429A00CCB9} = {658179B2-1D46-467B-9FC0-CEE1D6B8A864}
+		{EF43DD8F-D05F-4958-8C52-3C86325ECB1B} = {658179B2-1D46-467B-9FC0-CEE1D6B8A864}
 	EndGlobalSection
 EndGlobal
