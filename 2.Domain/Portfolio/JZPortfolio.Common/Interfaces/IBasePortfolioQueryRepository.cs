@@ -2,6 +2,6 @@ namespace JZPortfolio.Common.Interfaces
 {
     public interface IBasePortfolioQueryRepository<TResponse, TId>
     {
-        TResponse GetById(TId id);
+        Task<TResponse> GetById(TId id);
     }
 }
